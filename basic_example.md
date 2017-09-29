@@ -1,18 +1,16 @@
-#### Show current time and date
+### Show current time and date
 ```javascript
 date
 ```
 Fri Sep 29 22:07:38 UTC 2017
 
-#### Show current calendar
+### Show current calendar
 ```javascript
 cal
 ```
 September 2017
 
 Su Mo Tu We Th Fr Sa
-
-             1  2
 
 3  4  5  6  7  8  9
 
@@ -22,7 +20,7 @@ Su Mo Tu We Th Fr Sa
 
 24 25 26 27 28 29 30
 
-#### Show disk space total
+### Show disk space total
 ```javascript
 df
 ```
@@ -38,12 +36,17 @@ tmpfs            4016256        0   4016256   0% /sys/fs/cgroup
 
 shm                65536        0     65536   0% /dev/shm
 
-#### Show memory total
-> total        used        free      shared  buff/cache   available
-> Mem:        8032512      293596     4914532       29948     2824384     7299108
-> Swap:       2097148           0     2097148
+### Show memory total
+```javascript
+free
+```
+total        used        free      shared  buff/cache   available
 
-#### Close terminal session
+Mem:        8032512      293596     4914532       29948     2824384     7299108
+
+Swap:       2097148           0     2097148
+
+### Close terminal session
 ```javascript
 exit
 ```
