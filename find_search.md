@@ -1,6 +1,6 @@
 
-locate - use the file name to search files.
-find - search files in the directory.
+* locate - use the file name to search files.
+* find - search files in the directory.
 
 ### Locate
 ```javascript
