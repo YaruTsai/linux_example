@@ -1,0 +1,6 @@
+MySQL command
+
+Show the schema of a table in a MySQL database
+$ describe [db_name.]table_name;
+$ show create table [db_name.]table_name;
+$ show columns from [db_name.]table_name;
