@@ -1,6 +1,15 @@
-MySQL command
 
-Show the schema of a table in a MySQL database
-$ describe [db_name.]table_name;
-$ show create table [db_name.]table_name;
-$ show columns from [db_name.]table_name;
+- MySQL Show the schema of a table
+
+Usage:
+describe [db_name.]table_name;
+SHOW create table [db_name.]table_name;
+SHOW columns from [db_name.]table_name;
+
+
+- MySQL LIKE syntax
+
+Usage:
+SELECT * FROM table WHERE column [NOT] LIKE pattern; //精準匹配
+SELECT * FROM table WHERE column [NOT] LIKE %pattern%; //類似匹配
+SELECT * FROM table WHERE column [NOT] LIKE BINARY pattern; //區分大小寫
