@@ -1,0 +1,16 @@
+Sort 排列文字資料
+-b 忽略空白
+-o 輸出檔案
+
+Example - 1
+根據英文字母順序排序
+sort file.txt
+
+Example - 2
+從標準輸入接受資料
+cat file.txt | sort
+
+Example - 3
+排序結果儲存至檔案
+sort -o output file.txt
+
